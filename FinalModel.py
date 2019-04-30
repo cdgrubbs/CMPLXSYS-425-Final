@@ -1,4 +1,3 @@
-inp = input("input a genre: ")
 class Song:
     def __init__(self, fitness, array, wav):
         self.fitness = fitness
