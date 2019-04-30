@@ -35,3 +35,7 @@ for generation in range(num_generations):
     for song in population:
 
     # Keep it goin
+Bash = "rm -rf /WorkingFolder/*.png"
+import subprocess
+process = subprocess.Popen(Bash.split, stdout=subprocess.PIPE)
+output, error = process.communicate()
