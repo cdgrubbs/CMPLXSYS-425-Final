@@ -16,7 +16,7 @@ class Song:
     def __repr__(self):
         return "Item array: {0}, fitness: {1}".format(self.array, self.fitness)
 
-def recombination():
+def recombination(Song a, Song b):
     # TODO:
     return
 
